@@ -30,7 +30,8 @@
 
 .heroTitle,
 .heroSubtitle {
-  font-family: GmarketSansBold;
+  font-family: "GmarketSansBold", sans-serif;
+  color: #4668ce;
 }
 
 .buttons {
