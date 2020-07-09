@@ -5,6 +5,16 @@
  * and scoped locally.
  */
 
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -16,6 +26,11 @@
   .heroBanner {
     padding: 2rem;
   }
+}
+
+.heroTitle,
+.heroSubtitle {
+  font-family: GmarketSansBold;
 }
 
 .buttons {
@@ -34,4 +49,17 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.getStarted {
+  color: #19dc91;
+  font-family: "NanumSquare", sans-serif;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.getStarted:hover {
+  color: #fff;
+  background-color: #19dc91;
+  border-color: #19dc91;
 }
