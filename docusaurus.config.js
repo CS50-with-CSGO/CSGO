@@ -1,11 +1,11 @@
 module.exports = {
   title: "CSGO",
   tagline: "Learning CS50 with Team CSGO",
-  url: "https://cs50-with-csgo.github.io/csgo/",
-  baseUrl: "/",
+  url: "https://cs50-with-csgo.github.io",
+  baseUrl: "/csgo/",
   favicon: "img/favicon.ico",
-  organizationName: "CSGO", // Usually your GitHub org/user name.
-  projectName: "CS50 with CSGO", // Usually your repo name.
+  organizationName: "CS50-with-CSGO", // Usually your GitHub org/user name.
+  projectName: "CSGO", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "CSGO",

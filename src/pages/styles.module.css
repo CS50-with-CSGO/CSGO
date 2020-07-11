@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "typoS";
-  src: url("/Typo_SsangmunDongB.woff") format("woff");
+  src: url("/csgo/Typo_SsangmunDongB.woff") format("woff");
 }
 
 .heroBanner {
@@ -66,6 +66,7 @@
   font-family: "NanumSquare", sans-serif;
   font-weight: 800;
   margin-top: 1rem;
+  border: 1px solid #19dc91;
 }
 
 .getStarted:hover {

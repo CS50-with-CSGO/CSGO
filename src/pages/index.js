@@ -29,8 +29,8 @@ const features = [
     imageUrl: "img/undraw_online_collaboration_7pfp.svg",
     description: (
       <>
-        팀 리더와 팀원으로 구성되어 서로를 도우며, 질문에 대해 토론하는 건전하고
-        자유로운 분위기의 협동 분위기 조성.
+        팀 리더와 팀원으로 구성되어 서로를 도우며, 토론하는 건전하고 자유로운
+        협동 분위기 조성.
       </>
     ),
   },
