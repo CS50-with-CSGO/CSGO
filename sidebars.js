@@ -1,6 +1,8 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ["doc1", "doc2", "doc3"],
-    Features: ["mdx", "test"],
+    "시작하기 전에": ["intro"],
+    "1. 컴퓨팅 사고": ["etc/test"],
+
+    etc: ["etc/doc1", "etc/doc2", "etc/doc3", "etc/mdx", "etc/test"],
   },
 };
