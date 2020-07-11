@@ -8,32 +8,29 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    title: <>원격 수업(MOOC)</>,
+    imageUrl: "img/undraw_online_connection_6778.svg",
+    description: (
+      <>전국 각지의 참가자들이 모여, 각자의 편한 시간대에 공부하는 원격 수업.</>
+    ),
+  },
+  {
+    title: <>7주 동안의 집중 학습</>,
+    imageUrl: "img/undraw_growth_curve_8mqx.svg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        7주 동안 함께 강의를 듣고 퀴즈와 미션을 클리어해나가는 집중 학습. <br />
+        동기 부여 및 라이브 리뷰 강의는 덤.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: "img/undraw_docusaurus_tree.svg",
+    title: <>팀으로 이루어진 학습 환경</>,
+    imageUrl: "img/undraw_online_collaboration_7pfp.svg",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: <>Powered by React</>,
-    imageUrl: "img/undraw_docusaurus_react.svg",
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        팀 리더와 팀원으로 구성되어 서로를 도우며, 질문에 대해 토론하는 건전하고
+        자유로운 분위기의 협동 분위기 조성.
       </>
     ),
   },
@@ -48,8 +45,8 @@ function Feature({ imageUrl, title, description }) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <h3 className={styles.featureTitle}>{title}</h3>
+      <p className={styles.featureDescription}>{description}</p>
     </div>
   );
 }

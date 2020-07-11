@@ -49,6 +49,18 @@
   width: 200px;
 }
 
+.featureTitle {
+  font-family: "typoS", sans-serif;
+}
+
+.featureTitle:hover {
+  color: #4668ce;
+}
+
+.featureDescription {
+  word-break: keep-all;
+}
+
 .getStarted {
   color: #19dc91;
   font-family: "NanumSquare", sans-serif;
