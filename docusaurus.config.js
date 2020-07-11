@@ -20,7 +20,7 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        { to: "blog", label: "Blog", position: "left" },
+        // TODO - Add Contributors Profiles TabLink
         {
           href: "https://github.com/CS50-with-CSGO/csgo",
           label: "GitHub",
