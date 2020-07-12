@@ -28,7 +28,7 @@
 .heroTitle,
 .heroSubtitle {
   font-family: "typoS", sans-serif;
-  color: #4668ce;
+  color: #fff;
 }
 
 .buttons {
@@ -62,15 +62,15 @@
 }
 
 .getStarted {
-  color: #19dc91;
+  color: #1c1d23;
   font-family: "NanumSquare", sans-serif;
   font-weight: 800;
   margin-top: 1rem;
-  border: 1px solid #19dc91;
+  border: 1px solid #1c1d23;
 }
 
 .getStarted:hover {
   color: #fff;
-  background-color: #19dc91;
-  border-color: #19dc91;
+  background-color: #1c1d23;
+  border-color: #1c1d23;
 }
