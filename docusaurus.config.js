@@ -35,12 +35,12 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Style Guide",
-              to: "docs/doc1/",
+              label: "인트로",
+              to: "docs/",
             },
             {
-              label: "Second Doc",
-              to: "docs/doc2/",
+              label: "마크다운 가이드",
+              to: "docs/etc/doc1",
             },
           ],
         },
