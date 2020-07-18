@@ -11,7 +11,7 @@ module.exports = {
       title: "CSGO",
       logo: {
         alt: "CSGO Logo",
-        src: "img/logo.svg",
+        src: "img/logo_circle.png",
       },
       links: [
         {
