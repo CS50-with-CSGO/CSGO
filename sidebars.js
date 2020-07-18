@@ -12,6 +12,5 @@ module.exports = {
     ],
 
     etc: ["etc/doc1"],
-    // etc: ["etc/doc1", "etc/doc2", "etc/doc3", "etc/mdx", "etc/test"],
   },
 };
