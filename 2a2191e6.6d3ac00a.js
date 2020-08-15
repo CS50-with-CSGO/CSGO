@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{154:function(o){o.exports=JSON.parse('{"allTagsPath":"/csgo/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/csgo/blog/tags/hello"}')}}]);
